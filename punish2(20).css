@@ -1,0 +1,141 @@
+body{
+    display: flex;
+    background-color:bisque;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    gap: 10px;
+    width: 700px;
+    height: 500px;
+    padding:100px;
+    background-color:bisque;
+}
+
+.grid-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;   
+}
+
+.item-a img{
+    width: 345px;
+    height: 169px;
+}
+
+.item-b img{
+    width: 167px;
+    height: 169px;
+}
+
+.item-c img{
+    width: 173px;
+    height: 340px;
+}
+
+.item-d img{
+    width: 165px;
+    height: 155px;
+}
+
+.item-e img{
+    width: 165px;
+    height: 155px;
+}
+
+.item-f img{
+    width: 167px;
+    height: 155px;
+}
+
+.item-g img{
+    width: 165px;
+    height: 155px;
+}
+
+.item-h img{
+    width: 165px;
+    height: 155px;
+}
+
+.item-i img{
+    width: 167px;
+    height: 155px;
+}
+
+.item-j img{
+    width: 173px;
+    height: 155px;
+}
+
+
+
+.item-a{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background-color: rgb(60, 143, 138);
+}
+
+.item-b{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-color: rgb(60, 143, 138);
+   
+}
+
+.item-c{
+    grid-column: 4/5; 
+    grid-row: 1/3;
+    background-color: rgb(60, 143, 138);
+}
+
+.item-d{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: rgb(60, 143, 138);
+}
+
+.item-e{
+    grid-column:2/3 ;
+    grid-row: 2/3;
+    background-color: rgb(60, 143, 138);
+}
+
+.item-f{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: rgb(60, 143, 138);
+}
+
+.item-g{
+    grid-column:1/2 ;
+    grid-row: 3/4;
+    background-color: rgb(60, 143, 138);
+}
+
+.item-h{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-color: rgb(60, 143, 138);
+}
+
+.item-i{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-color: rgb(60, 143, 138);
+}
+
+.item-j{
+    grid-column: 4/5;
+    grid-row: 3/4;
+    background-color: rgb(60, 143, 138);
+}
+
+

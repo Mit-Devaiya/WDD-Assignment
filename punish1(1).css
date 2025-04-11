@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(185, 132, 132);
+}
+
+.menu-container{
+
+}
+
+.menu-container p{
+    font-size: 50px;
+    line-height: 0%;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu-container h3{
+    text-align: center;
+    line-height: 10%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.punjabi{
+    background-color: rgb(106, 69, 69);
+    border-radius: 40%;
+    line-height:   1cm;
+    text-align: center;
+}
+.menu ul{
+    font-size: 25px;
+}
+
+
+.imgs img{
+    width: 300px;
+    width: 300px;
+    position: relative;
+    left: 500px;
+    top: -220px;
+
+    
+    
+}
+
+.gujarati{
+    background-color: rgb(106, 69, 69);
+    border-radius: 40%;
+    line-height:   1cm;
+    text-align: center;   
+    position: relative;
+    top: -180px;
+}
+
+.menu1 ul{
+    font-size: 25px;
+    position: relative;
+    top: -170px;
+}
+
+.imgs1 img{
+    width: 400px;
+    width: 300px;
+    position: relative;
+    left: 500px;
+    top: -390px;
+}
+
+.south{
+    background-color: rgb(106, 69, 69);
+    border-radius: 40%;
+    line-height:   1cm;
+    text-align: center;   
+    position: relative;
+    top: -350px;
+}
+
+.menu2 ul{
+    font-size: 25px;
+    position: relative;
+    top: -340px;
+}
+
+.imgs2 img{
+    width: 400px;
+    width: 300px;
+    position: relative;
+    left: 500px;
+    top: -550px;
+}
+

@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    background-color: rgb(164, 187, 178);
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    
+}
+
+.login-box{
+    border: 1px solid rgb(166, 43, 43);
+    border-radius: 0%;
+    width: 500px;
+    height: 400px;
+    background-color: rgb(13, 38, 69);
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box h2{
+    color: rgb(29, 79, 60);
+    margin-bottom : 30px;
+}
+
+.user-box input{
+    background-color: rgb(65, 41, 41);
+    height: 0.5cm;
+   margin: 5px;
+   border-radius: 10px;
+
+}

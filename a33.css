@@ -1,0 +1,30 @@
+body{
+    place-items: center;
+    background-color:palevioletred;
+}
+.form-container{
+    
+    width:200px;
+    
+    margin:50px auto;
+    padding: 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: brown;
+    text-align: left;
+    color: white;
+    align-items: center;
+    justify-content: center;
+
+
+}
+input[type="submit"]{
+    background-color:rgb(92, 95, 52);
+    height: 50px;
+    color: white;
+    
+}
+input[type="reset"]{
+    background-color:skyblue ;
+     height: 50px;
+     color: white;}
